@@ -1,0 +1,66 @@
+{
+  "protocol_fix": "tg-threshold-btc",
+  "version": "v1",
+  "node": {
+    "index_fix": 1,
+    "id": "node-1"
+  },
+  "telegram": {
+    "botToken": "xxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "allowedGroupId": -11111111111
+  },
+  "crypto": {
+    "masterSeed_fix": "lex lex lex lex lex lex lex lex lex lex lex lex lex lex"
+  },
+  "http": {
+    "listenHost": "0.0.0.0",
+    "port": 5551,
+    "tls": {
+      "certPem": "-----BEGIN CERTIFICATE-----\nMIICozCCAYugAwIBAgIJAKMznQ7WsZnmMA0GCSqGSIb3DQEBCwUAMBExDzANBgNV\nBAMTBm5vZGUtMTAeFw0yNjA0MDgyMzMxMjZaFw0zMTA0MDgyMzM2MjZaMBExDzAN\nBgNVBAMTBm5vZGUtMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKa3\nPkEQ0IBqZjQ+PEtfl6GdMiGK7RLUH/ey6kSud7SVI35puCY6tibfx74tKu2sQNgj\nQag6awZri2pymNMXes92fzWvmJg8NaSiULdbKqkli/oXqCcWAVYGt0FMohXyb+Vr\n06I/cfPQr/eme3tLkALhJQaOgLsNwNwfXBqP/vDQzXZyl8XgwfM8JuTu9aGXtr7K\nq4m/Dk2SZr2M5oDye+lEn1eDUQC/eBNQnCKg6t3M97/oQcq080tiFkIkYLKLjnSJ\nzwjMox/KM1VRsh8BhKaoFt1OKtODuC/81Wi86o48L5V2H9wAKurt/BVRRZEEaFaa\nx9ebyUU0241XFLLf9aUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAe0+LjupcbnMM\nhrXccEKrPd2WcY0mZIHVlrR8WcrI+PMppaWJpiN7RPimwUsihApOfLqsQSV1reE1\n1spf4kIi8z3F54rEjudoKSUCHUoTUCq+Xdp3+sySvbEofslmg9UjErzW8iC9dLzh\nB/1zmFbOYY3l5SJJzXGymlgVlhsLOtKstYs6wsifbYAWf2C4ard23CFxzY1HubuY\ncyst3S8oLEpB0/jB5U9EJd1v2XC21ZP7pl9V4xQw/9zFMeVSDEgslPGBlQKqyAEZ\nAHQscadUotZT2yM0ePL2W/RxSxD/JTDiajfgpZsEFmdGe8Ei6agpqCxgchURC2PS\nZfLLg2Kd4w==\n-----END CERTIFICATE-----",
+      "keyPem": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCmtz5BENCAamY0\nPjxLX5ehnTIhiu0S1B/3supErne0lSN+abgmOrYm38e+LSrtrEDYI0GoOmsGa4tq\ncpjTF3rPdn81r5iYPDWkolC3WyqpJYv6F6gnFgFWBrdBTKIV8m/la9OiP3Hz0K/3\npnt7S5AC4SUGjoC7DcDcH1waj/7w0M12cpfF4MHzPCbk7vWhl7a+yquJvw5Nkma9\njOaA8nvpRJ9Xg1EAv3gTUJwioOrdzPe/6EHKtPNLYhZCJGCyi450ic8IzKMfyjNV\nUbIfAYSmqBbdTirTg7gv/NVovOqOPC+Vdh/cACrq7fwVUUWRBGhWmsfXm8lFNNuN\nVxSy3/WlAgMBAAECggEANRewPLplHDBGQib7vqk/udk86M+8dj2VvKV+08aYGqtQ\nNWbnnU0fSzwC+X6a6DvuHqcDttZ71PyU1p6OKtOUadN76ZX1S64JC1ghynK/IETz\n0f6Mr33jiQj0fVgxWjnuBqsTJ916pcH0+DJNqtNClpgq2W6ycl+L5s4Z39+xufDR\nlmjCjTygH+H248cFtcs6miuSAjAlr+aw/Vjg8TdiUf+s8waIMb8HSvbSKEG8+2+c\np+7Ll9/5WMLtLyD14CIU9eBzCYN4EO0Vkg69Kw6zT2E1HP5YYvqRwWhxkeCLNXri\nMHaW4fC2PvwFebWL47Xe5CY94GQPdMHWBr9sax8ndQKBgQDMPVvcSrjllw4apbFy\nicQe6YBzecobu95wXQI2I42h/mNSb4tz6IdmfLVBFTrDtG6X+Bia0u6+wgRi0afr\n/K/DB1Pt7TgSG/z60N4gvcsLZ5l+vYxWqRIk78nSI88wf4y3f46L4i7mRqWdgpiU\ncoEhQbPdfK5VusD8KZwxVp3AIwKBgQDQ92nPKvKDJP6uFeGJdhcTJht4xHu51tD1\nzNacXtASjm7AIos8HVGhVOKbOeaV4g9ktGaswunx8txreaJ62rrry+80Z8gc0//4\nfPDikdkwAY/k/dMCLuWNQ+z2gkTDlm4e7u0xCIEuqkPf3tfHRKNPAU/WRK2Y6sKi\nVd031zdrlwKBgDgPm5hjNk9m4Cs2UffTku69P1HzGyPztIH5NbMwnR7bGd412fxt\n1kSudH4x2ph/fV/fbLmKrpfT36pUTBh9mq0Y5NPJKnvmDNG35VDtZ79wp3RfiRb8\nf4t9+lLhG2z/hduUescwxZjVyX3rrAALUiCTzVA9egj0IybUMRhl4xUrAoGAVUiU\nk2tovGNN2ciuWoaqljMYRSqTgF4OvDKUaA8+BkTBKIMwpiElHp3hOg7gb81qEOSb\nfuixyAAhO2/SAyff37pEbvPoNPPE5SpAuYdix3frvT5mbt6q6wOM43J5FAYB/Xfv\nr/JTnrL4rpZpJDd8GxNi/QTcgKtXMh+vAEpCoRMCgYBOidLGEpI1Q+KNAiAX8Twx\nsOGwyfbAMC1mgA+8t93jJ86UW7Aof9pkU1791PF5J8P21TRij60JBgHw+kXH9JR/\nNGcB/6Wg/RnaE46tOSaDCIEhZ2ktlgbXvRhAz9ecgVQTAhdF9C4e2cocNecTxIwc\nks7cq8/RZfgnd9gE/Z8uow==\n-----END PRIVATE KEY-----"
+    }
+  },
+  "peers": [
+    {
+      "index_fix": 2,
+      "id": "node-2",
+      "ip": "127.0.0.1",
+      "port": 5552
+    },
+    {
+      "index_fix": 3,
+      "id": "node-3",
+      "ip": "127.0.0.1",
+      "port": 5553
+    }
+  ],
+  "storage": {
+    "dbPath": "./data/node-1.db"
+  },
+  "bitcoin": {
+    "network": "mainnet",
+    "providers": [
+      {
+        "id": "provider-1",
+        "kind": "esplora",
+        "baseUrl": "https://blockstream.info/api/"
+      },
+      {
+        "id": "provider-2",
+        "kind": "esplora",
+        "baseUrl": "https://mempool.space/api"
+      },
+      {
+        "id": "provider-3",
+        "kind": "esplora",
+        "baseUrl": "https://mempool.space/api"
+      }
+    ]
+  },
+  "runtime": {
+    "requestTimeoutMs": 10000,
+    "roundTtlMs": 60000,
+    "healthcheckIntervalMs": 15000,
+    "logLevel": "info"
+  }
+}

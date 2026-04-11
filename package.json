@@ -1,0 +1,14 @@
+{
+  "name": "schnorr-scheme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram-based deterministic threshold Bitcoin Taproot signing system",
+  "scripts": {
+    "v1:start": "node v1/three-headed-bot.js"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.8.0",
+    "bitcoinjs-lib": "^7.0.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
