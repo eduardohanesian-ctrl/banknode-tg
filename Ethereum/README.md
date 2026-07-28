@@ -44,7 +44,10 @@ losing any two requires a new DKG.
 
 ## License and commercial use
 
-The project code is MIT-licensed. The cryptographic dependency stack is also MIT:
+The project's original code is distributed under
+`PolyForm-Noncommercial-1.0.0`. Commercial use is prohibited unless the
+copyright holder grants a separate license. The cryptographic dependencies
+retain their MIT licenses:
 
 - `@bitgo/sdk-core@38.4.0`;
 - `@bitgo/sdk-lib-mpc@8.33.0`, forcibly pinned through `overrides`;
@@ -54,8 +57,10 @@ The dependency graph contains no Silence Laboratories, Safeheron, or Go code.
 Do not remove `overrides`: newer BitGo MPC packages may pull in DKLS under a
 different license. See `THIRD_PARTY_NOTICES.md` and `npm ls`.
 
-The MIT license permits commercial use, modification, and distribution when
-the copyright and license notice is retained. This is technical information,
+See `LICENSE` for the complete terms governing the project's original code;
+third-party dependencies remain subject to their own licenses. The new terms
+apply to versions distributed with this license and do not alter rights to
+copies previously obtained lawfully under MIT. This is technical information,
 not individualized legal advice.
 
 ## Installation
@@ -216,15 +221,6 @@ coordinator. Database writes use a temporary file followed by an atomic rename;
 the POSIX mode is `0600`. In-flight signing nonce/state is never persisted: after
 a crash, the ceremony must start again.
 
-## License
-
-The project's original code is distributed under
-`PolyForm-Noncommercial-1.0.0`. Commercial use is prohibited unless the
-copyright holder grants a separate license. See `LICENSE` for the complete
-terms; third-party dependencies remain subject to their own licenses. These
-terms apply to versions distributed with this license and do not alter rights
-to copies previously obtained lawfully under MIT.
-
 ## Production limitations
 
 This is a complete cryptographic implementation, but it is not a claim that the
@@ -233,3 +229,4 @@ an independent audit of the exact commit, protocol transcript fuzzing, mTLS/HSM
 or enclave protection for shares, rollback-resistant storage, rate limits,
 monitoring, and backup/disaster-recovery runbooks. Telegram should be treated as
 an approval UI, not as the only authentication factor for high-value custody.
+
