@@ -1,0 +1,56 @@
+{
+  "protocol_fix": "tg-threshold-eth",
+  "version": "v1",
+  "node": {
+    "index_fix": 1,
+    "id": "node-1"
+  },
+  "telegram": {
+    "botToken": "PASTE_NODE_1_TELEGRAM_BOT_TOKEN_HERE",
+    "allowedGroupId": -1000000000000
+  },
+  "crypto": {
+    "masterSeed_fix": "REPLACE_WITH_UNIQUE_RANDOM_SECRET_FOR_NODE_1_MIN_32_BYTES"
+  },
+  "http": {
+    "listenHost": "0.0.0.0",
+    "port": 6661,
+    "tls": {
+      "certPem": "",
+      "keyPem": ""
+    }
+  },
+  "peers": [
+    {
+      "index_fix": 2,
+      "id": "node-2",
+      "ip": "127.0.0.1",
+      "port": 6662
+    },
+    {
+      "index_fix": 3,
+      "id": "node-3",
+      "ip": "127.0.0.1",
+      "port": 6663
+    }
+  ],
+  "storage": {
+    "dbPath": "./data/node-1.db"
+  },
+  "ethereum": {
+    "network": "mainnet",
+    "chainId": 1,
+    "providers": [
+      { "id": "publicnode", "kind": "json-rpc", "baseUrl": "https://ethereum-rpc.publicnode.com" },
+      { "id": "1rpc", "kind": "json-rpc", "baseUrl": "https://public.1rpc.io/eth" },
+      { "id": "drpc", "kind": "json-rpc", "baseUrl": "https://eth.drpc.org" }
+    ]
+  },
+  "runtime": {
+    "environment": "development",
+    "requestTimeoutMs": 10000,
+    "roundTtlMs": 600000,
+    "healthcheckIntervalMs": 15000,
+    "logLevel": "info"
+  }
+}

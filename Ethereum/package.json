@@ -1,0 +1,26 @@
+{
+  "name": "banknode-tg-ethereum",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram-controlled 2-of-3 threshold ECDSA wallet for Ethereum",
+  "type": "commonjs",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node three-headed-bot.js",
+    "test": "node test/crypto.test.js",
+    "check": "node --check crypto_backend.js && node --check tg_backend.js && node --check three-headed-bot.js"
+  },
+  "dependencies": {
+    "@bitgo/sdk-core": "38.4.0",
+    "@bitgo/sdk-lib-mpc": "8.33.0",
+    "ethers": "6.17.0"
+  },
+  "overrides": {
+    "@bitgo/sdk-core": {
+      "@bitgo/sdk-lib-mpc": "8.33.0"
+    }
+  }
+}
